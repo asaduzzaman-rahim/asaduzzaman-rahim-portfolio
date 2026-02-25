@@ -20,11 +20,11 @@ const NavBer = () => {
     <>
         <header className=' pt-[40px] pb-[20px] shadow-2xl border-b-2'>
             <Container>
-                <nav className='flex justify-between items-center  relative'>
+                <nav className='flex justify-between items-center relative'>
                     <span >
                         <img src={Logo} alt="Website Logo" />
                     </span>
-                    <div  className={`${navber ? "block" : "hidden"}  w-full  lg:w-[80%] lg:flex justify-between items-center  absolute top-12 left-0 lg:sticky`}>
+                    <div  className={`${navber ? "block bg-bgcart p-4 left-0" : "hidden "}  w-full  lg:w-[80%] lg:flex justify-between items-center  absolute top-15  lg:sticky`}>
                         <ul className=' gap-[60px] lg:flex items-center  text-[20px] mb-[14px] font-medium tracking-[2px] text-whiteDark'>
                             <li>Home</li>
                             <li>Service</li>
