@@ -21,7 +21,7 @@ const Benar = () => {
 
                     <div className="bg-benar">
                         <span className="lg:text-2xl font-semibold tracking-[1px] text-whiteDark">Hi I am</span>
-                        <h1 className='lg:text-[60px] md:text-[50px] text-[35px] font-bold tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
+                        <h1 className='lg:text-[60px] md:text-[50px] text-[35px] font-bold pt-5 tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
                         <div className='py-5'>
                             <span className='lg:text-5xl md:text-4xl text-3xl font-black text-orange '>Frontend Developer</span>
                         </div>
@@ -49,7 +49,7 @@ const Benar = () => {
 
                         {/* Poster Part Start  */}
 
-                        <Flex className="bg-bgcart p-3 md:p-6 !flex-nowrap lg:justify-between justify-center lg:w-[534px]">
+                        <Flex className="bg-bgcart p-3  md:p-6 !flex-nowrap lg:justify-between justify-center lg:w-[534px]">
                             <div className='w-[150px] border-r-1 border-x-whiteDark'>
                                 <h5 className='text-2xl font-extrabold tracking-[3px] text-orange'>1+</h5>
                                 <p className='text-[20px]  font-bold text-whiteDark mt-[12px]'>Experience</p>
