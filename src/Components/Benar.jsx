@@ -1,4 +1,6 @@
 import React from 'react'
+// import { motion } from "motion/react"
+
 import Container from './Container'
 import Flex from './Flex'
 import Button from "./Button"
@@ -21,7 +23,7 @@ const Benar = () => {
 
                     <div className="bg-benar">
                         <span className="text-2xl font-semibold tracking-[1px] text-whiteDark">Hi I am</span>
-                        <h1 className='lg:text-[60px] md:text-[50px] text-[35px] font-bold pt-5 tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
+                        <h1 className='lg:text-[60px] md:text-[50px] text-[40px] font-bold pt-5 tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
                         <div className='py-5'>
                             <span className='lg:text-5xl md:text-4xl text-3xl font-black text-orange '>Frontend Developer</span>
                         </div>
@@ -81,6 +83,7 @@ const Benar = () => {
                 </Flex>
             </Container>
         </section>
+
     </>
   )
 }

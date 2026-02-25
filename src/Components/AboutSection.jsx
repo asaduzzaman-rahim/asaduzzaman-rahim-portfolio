@@ -13,7 +13,7 @@ const AboutSection = () => {
     <Section>
         <Container>
             <div>
-                 {/* Section Heading Part Start  */}
+            {/* Section Heading Part Start  */}
                 <HeadingCart 
                 heading="About"
                 details="Lorem ipsum dolor sit amet consectetur adipisicing elit. "

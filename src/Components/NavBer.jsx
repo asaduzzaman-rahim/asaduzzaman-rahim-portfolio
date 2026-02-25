@@ -21,7 +21,8 @@ const NavBer = () => {
         <header className=' pt-[40px] pb-[20px] shadow-2xl border-b-2'>
             <Container>
                 <nav className='flex justify-between items-center relative'>
-                    <span >
+                    <span> 
+                    {/* className='text-2xl font-black bg-gradient-to-r  from-orange via-orange-500 to-red-500 bg-clip-text text-transparnet drop-shadow-[0_5px_25px_rgba(255,80,0,0,5)] tracking-widest'> Asaduzzaman Rahim */}
                         <img src={Logo} alt="Website Logo" />
                     </span>
                     <div  className={`${navber ? "block bg-bgcart p-4 left-0" : "hidden "}  w-full  lg:w-[80%] lg:flex justify-between items-center  absolute top-15  lg:sticky`}>

@@ -3,6 +3,7 @@ import NavBer from './Components/NavBer'
 import Benar from './Components/Benar'
 import ServiceSection from './Components/ServiceSection'
 import AboutSection from './Components/AboutSection'
+import SkillSection from './Components/SkillSection'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Benar/>
       <ServiceSection/>
       <AboutSection/>
+      <SkillSection/>
     </>
   )
 }
