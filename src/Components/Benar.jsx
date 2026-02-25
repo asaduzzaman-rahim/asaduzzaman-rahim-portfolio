@@ -15,15 +15,15 @@ const Benar = () => {
     <>
         <section className="pt-[30px] pb-[70px]">
             <Container>
-                <Flex className="lg:justify-between justify-center items-center lg:text-start text-center">
+                <Flex className="lg:justify-between justify-center items-center gap-y-20 lg:text-start text-center">
 
                     {/* ** Contant Part Start  */}
 
-                    <div>
+                    <div className="bg-benar">
                         <span className="lg:text-2xl font-semibold tracking-[1px] text-whiteDark">Hi I am</span>
-                        <h1 className='lg:text-[60px] font-bold tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
+                        <h1 className='lg:text-[60px] md:text-[50px] text-[35px] font-bold tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
                         <div className='py-5'>
-                            <span className='lg:text-5xl font-black text-orange '>Frontend Developer</span>
+                            <span className='lg:text-5xl md:text-4xl text-3xl font-black text-orange '>Frontend Developer</span>
                         </div>
 
                         {/* Icon Part Start  */}
@@ -49,18 +49,18 @@ const Benar = () => {
 
                         {/* Poster Part Start  */}
 
-                        <Flex className="bg-bgcart p-6 lg:justify-between justify-center lg:w-[534px]">
-                            <div className='lg:w-[150px] border-r-1 border-x-whiteDark'>
-                                <h5 className='lg:text-2xl font-extrabold tracking-[3px] text-orange'>5+</h5>
-                                <p className='lg:text-[20px] text-[16px] font-bold text-whiteDark mt-[12px]'>Experience</p>
+                        <Flex className="bg-bgcart p-3 md:p-6 !flex-nowrap lg:justify-between justify-center lg:w-[534px]">
+                            <div className='w-[150px] border-r-1 border-x-whiteDark'>
+                                <h5 className='text-2xl font-extrabold tracking-[3px] text-orange'>1+</h5>
+                                <p className='text-[20px]  font-bold text-whiteDark mt-[12px]'>Experience</p>
                             </div>
-                            <div className='lg:w-[150px] border-r-1 border-x-whiteDark'>
-                                <h5 className='lg:text-2xl font-extrabold tracking-[3px] text-orange'>10+</h5>
-                                <p className='lg:text-[20px] text-[16px] font-bold text-whiteDark mt-[12px]'>Product Done</p>
+                            <div className='w-[150px] border-r-1 border-x-whiteDark'>
+                                <h5 className='text-2xl font-extrabold tracking-[3px] text-orange'>10+</h5>
+                                <p className='text-[20px]  font-bold text-whiteDark mt-[12px]'>Product Done</p>
                             </div>
-                            <div className='lg:w-[150px]'>
-                                <h5 className='lg:text-2xl font-extrabold tracking-[3px] text-orange'>5+</h5>
-                                <p className='lg:text-[20px] text-[16px] font-bold text-whiteDark mt-[12px]'>Happy Clients</p>
+                            <div className='w-[150px]'>
+                                <h5 className='text-2xl font-extrabold tracking-[3px] text-orange'>5+</h5>
+                                <p className='text-[20px] font-bold text-whiteDark mt-[12px]'>Happy Clients</p>
                             </div>
                         </Flex>
 
