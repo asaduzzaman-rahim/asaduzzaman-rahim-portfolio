@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { motion } from "motion/react"
 
 import Container from './Container'
@@ -13,6 +13,17 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 
 const Benar = () => {
+
+    
+
+    const Icon = [
+        {id: 1, icon: <FaFacebookSquare />, link: "https://www.facebook.com/rahim.asaduzzaman"},
+        {id: 2, icon: <FaLinkedin />, link: "https://www.linkedin.com/in/rahimasaduzzaman/"},
+        {id: 3, icon: <FaGithub />, link: "https://www.github.com/asaduzzaman-rahim"},
+        {id: 4, icon: <FaSquareInstagram />, link: "https://www.instagram.com/asaduzzaman_rahim_"},
+        {id: 5, icon:  <SiGmail />, link: "mailto:rahim.asaduzzaman@gmail.com"}                         
+    ]
+
   return (
     <>
         <section className="pt-[30px] pb-[70px]">
@@ -25,17 +36,20 @@ const Benar = () => {
                         <span className="text-2xl font-semibold tracking-[1px] text-whiteDark">Hi I am</span>
                         <h1 className='lg:text-[60px] md:text-[50px] text-[40px] font-bold pt-5 tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
                         <div className='py-5'>
-                            <span className='lg:text-5xl md:text-4xl text-3xl font-black text-orange '>Frontend Developer</span>
+                            <span className='lg:text-5xl md:text-4xl text-3xl font-bold text-orange '>Frontend Developer</span>
                         </div>
 
                         {/* Icon Part Start  */}
 
                         <Flex className=" justify-center  lg:justify-start gap-5">
-                            <FaFacebookSquare className='text-whiteDark text-2xl h-8 w-8 p-1 rounded-[10px] border-1 border-whiteDark'/>
-                            <FaLinkedin className='text-whiteDark text-2xl h-8 w-8 p-1 rounded-[10px] border-1 border-whiteDark'/>
-                            <FaGithub className='text-whiteDark text-2xl h-8 w-8 p-1 rounded-[10px] border-1 border-whiteDark'/>
-                            <FaSquareInstagram className='text-whiteDark text-2xl h-8 w-8 p-1 rounded-[10px] border-1 border-whiteDark'/>
-                            <SiGmail className='text-whiteDark text-2xl h-8 w-8 p-1 rounded-[10px] border-1 border-whiteDark'/>
+                            {
+                                Icon.map((items, id)=>{
+                                    return(
+                                        <button className='text-whiteDark text-2xl h-8 w-8 p-1 rounded-[10px] border-1 border-whiteDark cursor-pointer flex items-center justify-center' onClick={()=> window.open(items.link, "_blank")}
+                                         key={id}>{items.icon}</button>
+                                    )
+                                })
+                            }
                         </Flex>
 
                         {/* Icon Part End  */}
