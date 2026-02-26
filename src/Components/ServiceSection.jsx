@@ -23,7 +23,7 @@ const ServiceSection = () => {
             {/* Section Heading Part End  */}
 
             {/* Service Cart Section Start  */}
-            <Flex className="flex-wrap gap-[40px] justify-center pt-[80px]">
+            <Flex className="flex-wrap gap-[30px] justify-center pt-[80px]">
                 <ServiceCart 
                 IconPart={<FaReact/>}
                 HeadingPart="Frontend Development" 

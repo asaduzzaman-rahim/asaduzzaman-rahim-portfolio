@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 // import { motion } from "motion/react"
 
 import Container from './Container'
@@ -26,7 +26,7 @@ const Benar = () => {
 
   return (
     <>
-        <section className="pt-[30px] pb-[70px]">
+        <section className=" pt-[180px] pb-[70px]">
             <Container>
                 <Flex className="lg:justify-between justify-center items-center gap-y-20 lg:text-start text-center">
 
@@ -34,7 +34,7 @@ const Benar = () => {
 
                     <div className="bg-benar">
                         <span className="text-2xl font-semibold tracking-[1px] text-whiteDark">Hi I am</span>
-                        <h1 className='lg:text-[60px] md:text-[50px] text-[40px] font-bold pt-5 tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
+                        <h1 className='lg:text-[60px] md:text-[50px] text-[40px] font-semibold pt-5 tracking-[3px] text-whiteDark'>Asaduzzaman Rahim</h1>
                         <div className='py-5'>
                             <span className='lg:text-5xl md:text-4xl text-3xl font-bold text-orange '>Frontend Developer</span>
                         </div>
