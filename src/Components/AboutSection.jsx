@@ -22,7 +22,7 @@ const AboutSection = () => {
             {/* Section Heading Part End  */}     
 
             {/* About Section Part Start  */}
-                <Flex className=" flex-wrap justify-center lg:justify-between gap-[100px] pt-[40px] pb-[100px]">
+                <Flex className=" flex-wrap justify-center items-center lg:justify-between gap-[100px] pt-[40px] pb-[100px]">
             {/* About Photo Section Start  */}
                     <div>
 
@@ -30,7 +30,7 @@ const AboutSection = () => {
             {/* About Photo Section End  */}
 
             {/* About Content Section Start  */}
-                    <div className='w-[630px]'>
+                    <div className='max-w-[630px] mx-auto'>
                         <p className="text-xl text-center lg:text-left px-2 text-white leading-[35px] ">A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. designs.In this digital atelier.</p>
                         <Button className="mt-[40px] flex items-center gap-[10px]"> <FaCloudDownloadAlt /> Download CV</Button>
                     </div>
