@@ -4,10 +4,10 @@ import Container from "./Container";
 import Flex from "./Flex";
 import HeadingCart from "./HeadingCart";
 
-import Icon from "../assets/1.png";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import Icon from "../assets/1.png";
 
 import Slider from "react-slick";
 
