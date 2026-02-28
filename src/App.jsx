@@ -5,6 +5,7 @@ import ServiceSection from './Components/ServiceSection'
 import AboutSection from './Components/AboutSection'
 import SkillSection from './Components/SkillSection'
 import ProjectSection from './Components/ProjectSection'
+import TestimonialsSection from './Components/TestimonialsSection'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AboutSection/>
       <SkillSection/>
       <ProjectSection/>
+      <TestimonialsSection/>
     </>
   )
 }

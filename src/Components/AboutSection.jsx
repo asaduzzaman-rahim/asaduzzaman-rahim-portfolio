@@ -22,9 +22,9 @@ const AboutSection = () => {
             {/* Section Heading Part End  */}     
 
             {/* About Section Part Start  */}
-                <Flex className=" flex-wrap justify-center items-center lg:justify-between gap-[100px] pt-[40px] pb-[100px]">
+                <Flex className=" flex-wrap justify-center items-center lg:!justify-between gap-[100px] pt-[40px] pb-[100px]">
             {/* About Photo Section Start  */}
-                    <div>
+                    <div className='h-150 w-100 bg-FourColor rounded-2xl'>
 
                     </div>
             {/* About Photo Section End  */}

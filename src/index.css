@@ -17,7 +17,7 @@
   --color-ThereColor: #140c1c;
   --color-FourColor: #050709;
   --color-FiveColor: #2a1454;
-  --color-orange: #FD6F00;
+  --color-SixColor: #0b0410;
   --color-whiteDark: #959595;
   --color-bgcart: #1b1b1b;
 
@@ -43,4 +43,8 @@ body{
 
 .bg-gradient-orange {
   background: linear-gradient(to right, #FD6F00, #E46400);
+}
+
+.slick-arrow{
+  visibility: hidden;
 }

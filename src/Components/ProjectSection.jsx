@@ -12,7 +12,7 @@ import BenarImg from "../assets/project-5.png"
 const ProjectSection = () => {
   return (
     <>
-     <Section className="!bg-[#0b0410]">
+     <Section className="!bg-SixColor">
         <Container>
             <div>
                 <HeadingCart heading="My Recent Works" details="RECENT PROJECTS" />
