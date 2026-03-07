@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import NavScroll from "./Animation/NavScroll.jsx"
 
 // *! React DOM Router
 
@@ -18,7 +19,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Provider store={store}> */}
-      <App />
+      <NavScroll/>
     {/* </Provider> */}
   </StrictMode>
 )

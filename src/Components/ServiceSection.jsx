@@ -23,31 +23,24 @@ const ServiceSection = () => {
             {/* Section Heading Part End  */}
 
             {/* Service Cart Section Start  */}
-            <Flex className="flex-wrap gap-[30px] justify-center pt-[80px]">
+            <Flex className="!flex-wrap gap-[30px] justify-center pt-[80px]">
                 <ServiceCart 
                 IconPart={<FaReact/>}
                 HeadingPart="Frontend Development" 
-                DetailsPart="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolores modi perspiciatis dolorem commodi reiciendis?"/>
+                DetailsPart="Building responsive and interactive user interfaces using React.js and modern Javascript"/>
                 <ServiceCart 
                 IconPart={<FaWordpress/>}
-                HeadingPart="Wordpress Development" 
-                DetailsPart="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolores modi perspiciatis dolorem commodi reiciendis?"/>
+                HeadingPart="Responsive Website Design" 
+                DetailsPart="Creating fully responsive, mobile-first websites that work smoothly across all devices."/>
                 <ServiceCart 
                 IconPart={<FaReact/>}
-                HeadingPart="Frontend Development" 
-                DetailsPart="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolores modi perspiciatis dolorem commodi reiciendis?"/>
+                HeadingPart="React Web Application" 
+                DetailsPart="Beveloping scalable single-page applications with clean architecture and reusable components."/>
                 <ServiceCart 
                 IconPart={<FaWordpress/>}
-                HeadingPart="Wordpress Development" 
-                DetailsPart="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolores modi perspiciatis dolorem commodi reiciendis?"/>
-                <ServiceCart 
-                IconPart={<FaReact/>}
-                HeadingPart="Frontend Development" 
-                DetailsPart="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolores modi perspiciatis dolorem commodi reiciendis?"/>
-                <ServiceCart 
-                IconPart={<FaWordpress/>}
-                HeadingPart="Wordpress Development" 
-                DetailsPart="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolores modi perspiciatis dolorem commodi reiciendis?"/>
+                HeadingPart="API Integration & Firebase" 
+                DetailsPart="Integrating REST APIs and Firebase for authentication, real-time database and dynamic content management."/>
+
             </Flex>
             {/* Service Cart Section End  */}
 

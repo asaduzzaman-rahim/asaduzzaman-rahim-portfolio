@@ -20,6 +20,7 @@
   --color-SixColor: #0b0410;
   --color-whiteDark: #959595;
   --color-bgcart: #1b1b1b;
+  --color-inputColor: #050709;
 
   /* ------------ text font theme ----------- */
   --font-poppins: "Poppins", sans-serif;
@@ -34,16 +35,14 @@ body{
 }
 
 
-.bg-benar{
+/* .bg-benar{
   background-image: url("./assets/Vector.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
-.bg-gradient-orange {
-  background: linear-gradient(to right, #FD6F00, #E46400);
-}
+
 
 .slick-arrow{
   visibility: hidden;

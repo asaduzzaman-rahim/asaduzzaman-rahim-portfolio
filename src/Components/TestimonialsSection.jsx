@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
       ClintPosition: "Faculty, Web and Software",
     },
     {
-      id: 1,
+      id: 2,
       Description:
         "Taylor is a professional Designer he really helps my business by providing value to my business. Taylor is a professional Designer he really helps my business by providing value to my business.",
       ClintPhoto: Icon,
@@ -30,20 +30,20 @@ const TestimonialsSection = () => {
       ClintPosition: "Faculty, Web and Software",
     },
     {
-      id: 1,
+      id: 3,
       Description:
-        "Taylor is a professional Designer he really helps my business by providing value to my business. Taylor is a professional Designer he really helps my business by providing value to my business.",
+        "",
       ClintPhoto: Icon,
-      ClintName: "Md Mohidul Isman",
-      ClintPosition: "Faculty, Web and Software",
+      ClintName: "Fardin Hassan Rocky",
+      ClintPosition: "Founder at RequinBD",
     },
     {
-      id: 1,
+      id: 4,
       Description:
-        "Taylor is a professional Designer he really helps my business by providing value to my business. Taylor is a professional Designer he really helps my business by providing value to my business.",
+        "I had the pleasure of working with 'Asaduzzaman Rahim' during his 4-month internship in Operation Management at Requin BD, Throughout his time with us. Asaduzzaman consistently demonstrated exceptional dedication, professionalism and a proactive approach to every task he undertook. He showcased strong analytical skills, seamlessy managing operational challenges and always finding efficient solutions to improve workflows, his ability to collaborate with team members and communicate effectively made him a valuable asset or our organization. Asaduzzaman's coomitment to excellence and his eagerness to learn were truly commendable, I am confident he will bring the same level of enthusisam and expertise to any future opportunity. I highly recommend him and am excited to see all that he will achieve in his career ",
       ClintPhoto: Icon,
-      ClintName: "Md Mohidul Isman",
-      ClintPosition: "Faculty, Web and Software",
+      ClintName: "Md ",
+      ClintPosition: "Facu",
     },
   ];
 
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
       {
@@ -70,25 +70,27 @@ const TestimonialsSection = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          infinite: true,
         },
       },
     ],
   };
   return (
     <>
-      <Section className="bg-SixColor">
-        <Container>
+      <Section className=" overflow-hidden">
+        <Container> 
           <div className="pb-9">
             <HeadingCart heading="Testimonial"/>
           </div>
           <Slider {...settings}>
-            {TextData.map((items, id) => {
+            {
+            TextData.map((items) => {
               return (
                 <div
-                  key={id}
+                  key={items.id}
                   className="bg-ThereColor max-w-[625px] mx-suto p-[25px] rounded-2xl shadow-xl"
                 >
-                  <p className="mb-[35px] text-white">{items.Description}</p>
+                  <p className="mb-[35px] text-white ">{items.Description}</p>
                   <Flex className="items-center gap-4">
                     <img src={items.ClintPhoto} alt="" />
                     <div className="text-white">
