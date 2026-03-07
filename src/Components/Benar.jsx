@@ -5,10 +5,21 @@ import Container from './Container'
 import Flex from './Flex'
 import Button from "./Button"
 
+// import { useTypewriter } from 'react-simple-typewriter' 
+import { Typewriter } from 'react-simple-typewriter'
+
+
+
 import AsaduzzamanRahim from "../assets/Asaduzzaman Rahim.png"
 import SocialIconSection from './SocialIconSection'
 
 const Benar = () => {
+
+    // const [text] = useTypewriter({
+    //             words: ["Frontend Developer", "Javascript Developer", "React Developer"],
+    //             loop: true,
+    //     });
+
 
 
 
@@ -29,7 +40,17 @@ const Benar = () => {
                         <span className="text-2xl font-semibold tracking-[1px] text-white">Hi I am</span>
                         <h1 className='lg:text-[50px]  text-[35px] font-semibold pt-4 tracking-[3px] text-white'>Asaduzzaman Rahim</h1>
                         <div className='py-4'>
-                            <span className='lg:text-4xl text-3xl font-bold bg-gradient-to-r from-[rgb(135,80,247)] to-white bg-clip-text text-transparent '>Frontend Developer</span>
+                            <span className='lg:text-4xl text-3xl font-bold bg-gradient-to-r from-[rgb(135,80,247)] to-white bg-clip-text text-transparent '>
+                                <Typewriter
+                                    words={["Frontend Developer", "Javascript Developer", "React Developer", "Web Designer"]}
+                                    loop={3}
+                                    cursor={true}
+                                    cursorStyle='|'
+                                    typeSpeed={70}
+                                    deleteSpeed={50}
+                                    delaySpeed={1000}
+                                />
+                            </span>
                             <h2 className='text-[18px] md:text-xl md:max-w-[640px]  text-white pt-5 '>Grow your small business with website. WordPress and Web Design is my passion and profession. let's connect..</h2>
                         </div>
 
