@@ -7,11 +7,14 @@ import ServiceCart from "./ServiceCart"
 import { FaReact } from "react-icons/fa6";
 import { FaWordpress } from "react-icons/fa6";
 
+import { Element } from 'react-scroll'
+
 
 
 const ServiceSection = () => {
   return (
     <>
+    <Element name='section2'>
      <Section>
         <Container>
 
@@ -45,7 +48,9 @@ const ServiceSection = () => {
             {/* Service Cart Section End  */}
 
         </Container>
-     </Section> 
+     </Section>       
+    </Element>
+
     </>
   )
 }
