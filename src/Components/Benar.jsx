@@ -41,12 +41,12 @@ const Benar = () => {
 
                         <div className="  px-4 md:px-0 ">
                             <span className="text-2xl font-semibold tracking-[1px] text-white">Hi I am</span>
-                            <h1 className='lg:text-[50px]  text-[35px] font-semibold pt-4 tracking-[3px] text-white'>Asaduzzaman Rahim</h1>
+                            <h1 className='lg:text-[56px]  text-[35px] font-semibold pt-4 tracking-[3px] text-white'>Asaduzzaman Rahim</h1>
                             <div className='py-4'>
-                                <span className='lg:text-4xl text-3xl font-bold bg-gradient-to-r from-[rgb(135,80,247)] to-white bg-clip-text text-transparent '>
+                                <span className='lg:text-5xl text-3xl font-bold bg-gradient-to-r from-[rgb(135,80,247)] to-white bg-clip-text text-transparent '>
                                     <Typewriter
                                         words={["Frontend Developer", "Javascript Developer", "React Developer", "Web Designer"]}
-                                        loop={3}
+                                        loop={true}
                                         cursor={true}
                                         cursorStyle='|'
                                         typeSpeed={70}

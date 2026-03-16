@@ -62,8 +62,10 @@ const ContactSection = () => {
                                 </div>
 
                                 <div className='sm:col-start-1 sm:col-span-2'>
-                                    <input type="text" placeholder='Massage'
-                                    className="text-white w-full px-5 pb-30 lg:pb-55 py-[14px] border border-gray-500 bg-inputColor focus:border-primary rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-500 leading-1"/>
+                                    <textarea type="text" placeholder='Massage' cols="1" rows="40"
+                                    className="text-white w-full px-5 pb-2 py-[14px] border border-gray-500 bg-inputColor focus:border-primary rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-500 leading-1">
+                                    </textarea>
+
                                 </div>
                                 <div className='my-3'>
                                     <Button>Send Massage</Button>
