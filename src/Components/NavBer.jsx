@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Container from "./Container"
 import Button from "./Button"
 
-import { IoMenu } from "react-icons/io5";
-import { FaRegWindowClose } from "react-icons/fa";
+import { LuMenu } from "react-icons/lu";
+import { RxCross1 } from "react-icons/rx";
 
 import Logo from "../assets/LOGO.png"
 import MenuBer from './MenuBer';
@@ -31,7 +31,7 @@ const NavBer = () => {
                     <button 
                     onClick={handleNavber}
                     className='block lg:hidden font-bold text-4xl text-white pr-3 cursor-pointer'> 
-                        {!navber?<IoMenu />:<FaRegWindowClose />}
+                        {!navber? <LuMenu />:<RxCross1  />}
                         </button>
                 </nav>
             </Container>
