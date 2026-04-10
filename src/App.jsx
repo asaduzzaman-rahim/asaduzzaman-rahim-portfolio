@@ -15,9 +15,9 @@ function App() {
 
       <NavBer />
       <Benar />
+      <SkillSection />
       <ServiceSection />
       <AboutSection />
-      <SkillSection />
       <ProjectSection />
       <TestimonialsSection />
       <ContactSection/>

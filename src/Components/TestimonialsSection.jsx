@@ -61,7 +61,7 @@ const TestimonialsSection = () => {
                 >
                   <p className="mb-[35px] text-white ">{items.Description}</p>
                   <Flex className="items-center gap-4">
-                    <img src={items.ClintPhoto} alt="" />
+                    <img className="h-20 w-20 rounded-full" src={items.ClintPhoto} alt="" />
                     <div className="text-white">
                       <h3 className="text-xl mb-1.5">{items.ClintName}</h3>
                       <h5 className="text-sm ">{items.ClintPosition}</h5>

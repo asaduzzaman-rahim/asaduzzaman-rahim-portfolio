@@ -58,7 +58,7 @@ const ProjectSection = () => {
                                     <GoArrowUpRight className='text-2xl' /> </button>
 
                                 </div>   
-                                <div className='p-4 max-w-[590px] overflow-hidden rounded-2xl bg-[#10171c]'>
+                                <div className='p-4 max-w-[590px] overflow-hidden rounded-2xl bg-[#10171c] hover:bg-primary transition-all duration-1300'>
                                     <img src={items.Benar} alt="Benar Image" />    
                                 </div>  
                             </Flex>    
@@ -66,6 +66,11 @@ const ProjectSection = () => {
                             )
                         })
                     }
+                </div>
+                <div className='flex justify-center pt-9'>
+                    <button onClick={()=>  window.open("https://github.com/asaduzzaman-rahim?tab=repositories", "_blank")}
+                    className='text-white p-4 bg-FiveColor rounded-xl cursor-pointer transtion-all duration-900 hover:bg-primary'
+                    >More Project Github Repo</button>
                 </div>
 
                 
