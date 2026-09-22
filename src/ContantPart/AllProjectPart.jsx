@@ -2,6 +2,7 @@ import BenarImg from "../assets/project-01.png"
 // import EcommerceFrontend from "../assets/Ecommerce Frontend Application.png"
 import EcommerceFrontend from "../assets/Ecommerce frontend Application Photo.png"
 import RestaurantLandingPage from "../assets/Resturent Landing Page.png"
+import DoctorAppointment from "../assets/Doctor Appointment System.png"
 
 export const Project =[
         {id: 1, 
@@ -29,7 +30,7 @@ export const Project =[
     },
     {id: 2, 
         Short: "React and Tailwind CSS Project", 
-        Name: "Resturent Landing Page", 
+        Name: "Doctor Appointment System", 
         Overview: "This project is designed with a real-world Resturent  mindset, suitable for businesses, insurance companies, and professional service providers who want to present their brand, services, and call-to-action in a clear and engaging way.",
         
         Features: [
@@ -42,13 +43,34 @@ export const Project =[
 
         Technology: [
            {id: 1,  Name: "React"}, 
-           {id: 2,  Name: "Tailwind CSS"}, 
-           {id: 3,  Name: "HTML5"}, 
+           {id: 2,  Name: "Tailwind CSS"}
         ],
         
-        LiveLink: "github.com/asaduzzaman-rahim",
-        Benar: RestaurantLandingPage           
+        LiveLink: "https://hospital-appointment-management-one.vercel.app/",
+        Benar: DoctorAppointment           
     },
+    // {id: 3, 
+    //     Short: "React and Tailwind CSS Project", 
+    //     Name: "Resturent Landing Page", 
+    //     Overview: "This project is designed with a real-world Resturent  mindset, suitable for businesses, insurance companies, and professional service providers who want to present their brand, services, and call-to-action in a clear and engaging way.",
+        
+    //     Features: [
+    //         {Id:1, focuses : "Professional navigation bar"},
+    //         {Id:2, focuses : "Hero / banner section with strong call-to-action "},
+    //         {Id:3, focuses : "Benefits and service highlight section "},
+    //         {Id:4, focuses : "Smooth reveal and hover animations "},
+            
+    //     ],
+
+    //     Technology: [
+    //        {id: 1,  Name: "React"}, 
+    //        {id: 2,  Name: "Tailwind CSS"}, 
+    //        {id: 3,  Name: "HTML5"}, 
+    //     ],
+        
+    //     LiveLink: "github.com/asaduzzaman-rahim",
+    //     Benar: RestaurantLandingPage           
+    // },
     // {id: 3, 
     //     Short: "React and Tailwind CSS Project", 
     //     Name: "Corporate Landing Page", 

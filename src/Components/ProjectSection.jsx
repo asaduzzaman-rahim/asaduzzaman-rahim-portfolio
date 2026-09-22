@@ -22,7 +22,6 @@ const ProjectSection = () => {
                 <div>
                     <HeadingCart heading="My Recent Works" details="RECENT PROJECTS" />
                 </div>
-                
             <div>
 
                     {
