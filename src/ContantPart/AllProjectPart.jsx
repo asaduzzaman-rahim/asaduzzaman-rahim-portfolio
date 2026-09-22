@@ -22,7 +22,8 @@ export const Project =[
         Technology: [
             {id: 1,  Name: "React"}, 
             {id: 2,  Name: "Tailwind CSS"}, 
-            {id: 3,  Name: "Fairbase"} 
+            {id: 3,  Name: "React Redex"}, 
+            {id: 4,  Name: "Fairbase"} 
         ],
         
         LiveLink: "https://ecommerce-frontend-application-nine.vercel.app/",
@@ -31,19 +32,21 @@ export const Project =[
     {id: 2, 
         Short: "React and Tailwind CSS Project", 
         Name: "Doctor Appointment System", 
-        Overview: "This project is designed with a real-world Resturent  mindset, suitable for businesses, insurance companies, and professional service providers who want to present their brand, services, and call-to-action in a clear and engaging way.",
+        Overview: "The application allows users to browse doctors, filter doctors by speciality, view individual doctor profiles, and navigate through an appointment-booking flow with a clean and responsive user interface.",
         
         Features: [
-            {Id:1, focuses : "Professional navigation bar"},
-            {Id:2, focuses : "Hero / banner section with strong call-to-action "},
-            {Id:3, focuses : "Benefits and service highlight section "},
-            {Id:4, focuses : "Smooth reveal and hover animations "},
+            {Id:1, focuses : "Explore doctors with their speciality, experience, profile, and availability information."},
+            {Id:2, focuses : "Easily find doctors by selecting a specific medical speciality."},
+            {Id:3, focuses : "View detailed doctor profiles and access the appointment booking flow. "},
+            {Id:4, focuses : "Fully responsive interface optimized for mobile, tablet, and desktop devices."},
             
         ],
 
         Technology: [
            {id: 1,  Name: "React"}, 
-           {id: 2,  Name: "Tailwind CSS"}
+           {id: 2,  Name: "Tailwind CSS"},
+           {id: 3,  Name: "React Router"},
+           {id: 4,  Name: "Context API"}
         ],
         
         LiveLink: "https://hospital-appointment-management-one.vercel.app/",
